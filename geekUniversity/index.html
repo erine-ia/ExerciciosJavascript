@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body> 
+   <nav>
+    <ul>
+        <li><a href="#ex1">Exercicio 01</a></li>
+        <li><a href="#ex2">Exercicio 02</a></li>
+        <li><a href="#ex3">Exercicio 03</a></li>
+     </ul>
+   </nav>
+   <main>
+        <header>
+            <h1>Exercícios Javascript</h1>
+            <h3>Exercícios desenvolvidos pela Geek University</h3>
+            <!-- <img src="logo-geek" alt=""> -->
+        </header>
+    
+    
+        <section id="js01">
+            <div class="cabecalho">
+                <h2>Javascript Conceitos Básicos 1</h2>
+            </div>
+            <div class="ex" id="ex1">
+                <p>1 - Crie uma função que receba um objeto no formato abaixo… </p>
+                <img src="img/ex1.jpg" alt="">
+                <p>E retorne uma string com o seguinte formato: </p>
+                <img src="img/ex1-1.jpg" alt="">
+
+                <div class="res">
+                    <h2>Resolução</h2>
+                    <form action="">
+                        <input type="text" name="nome" id="nome" placeholder="Nome:">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="tel" name="tel" id="tel" placeholder="telefone">
+                        <input type="text" name="end" id="end" placeholder="Endereço">
+                        <input type="number" name="num" id="num" placeholder="n°">
+                        <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+                        <input type="text" name="cid" id="cid" placeholder="Cidade">
+                        <input type="text" name="uf" id="uf" placeholder="uf">
+
+                        <input type="submit" value="Enviar" onclick="dados()">
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="ex" id="ex2">
+                
+                    <p>2 - Crie uma função que receba dois valores inteiros como parâmetro e exiba todos os números ímpares
+                    entre estes dois número</p>
+                   
+    
+                    <div class="res">
+                        <h2>Resolução</h2>
+                        <h3>Digite dois números:</h3>
+                        <form action="">
+                            <input type="number" name="numero1" id="num1">
+                            <input type="number" name="numero2" id="num2">
+                            <input type="submit" value="Enviar" onclick="impares()">
+                        </form>
+                    </div>
+
+                
+                
+            </div>
+            <div class="ex" id="ex3">
+                <p>3 - Crie uma função que receba um valor em anos de experiência de um funcionário e retorne o nível de
+                    experiência deste conforme:<br>
+                   => De 0 a 2 anos: Júnior <br>
+                   => De 3 a 5 anos: Pleno  <br>
+                   => De 6 acima: Senior</p><br>
+
+                   <div class="res">
+                        <h2>Resolução</h2>
+                        <br>
+
+                        <h4>Informe os anos de experiência na função:</h4>
+                        <input type="number" id="anos">
+                        <input type="submit" value="Enviar" onclick="nivel()">
+                   </div>
+                
+            </div>
+        </section>
+    </main>
+   <script src="script.js"></script>
+</body>
+</html>
